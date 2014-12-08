@@ -388,7 +388,7 @@ Mat TraitementImage::BatimentTraitement(Mat& image){
     canny_output.release();                         // Release memory Free
     image = drawingBatiment;
     drawingBatiment.release();
-    affiche(image, "Contour Batiment");
+   // affiche(image, "Contour Batiment");
 
     return image;
 }

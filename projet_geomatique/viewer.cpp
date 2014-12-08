@@ -45,7 +45,7 @@ void Viewer::init()
   setMouseBindingDescription(Qt::ShiftModifier, Qt::MidButton, "Change frustum size (for standard camera in orthographic mode)");
 
   // Display help window.
-  //help();
+  help();
 }
 
 void Viewer::showMessage()

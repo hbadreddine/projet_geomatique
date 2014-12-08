@@ -15,7 +15,7 @@ void CameraViewer::draw()
 {
    initGL(projet1);
   
-  //b.draw();
+ 
 
   
 }

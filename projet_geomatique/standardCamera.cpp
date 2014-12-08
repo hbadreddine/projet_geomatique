@@ -13,7 +13,7 @@ StandardCamera::StandardCamera()
 float StandardCamera::zNear() const
 {
   if (standard)
-	return 0.001f;
+	return 5.0f;
   else
 	return Camera::zNear();
 }
@@ -29,9 +29,9 @@ float StandardCamera::zFar() const
 void StandardCamera::changeOrthoFrustumSize(int delta)
 {
   if (delta > 0)
-	orthoSize *= 1.1f;
+	orthoSize *= 2.5f;
   else
-	orthoSize /= 1.1f;
+	orthoSize /= 2.5f;
 }
 
 void StandardCamera::getOrthoWidthHeight(GLdouble &halfWidth, GLdouble &halfHeight) const

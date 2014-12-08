@@ -2,8 +2,8 @@ TARGET = viewer
 CONFIG *= qt opengl release
 QT *= opengl xml
 
-HEADERS = afficheortho.h vegetation.h percepunit.h standardCamera.h cameraViewer.h viewer.h bati.h initgl.h traitementimage.h 
-SOURCES = afficheortho.cpp vegetation.cpp percepunit.cpp standardCamera.cpp cameraViewer.cpp viewer.cpp bati.cpp initgl.cpp traitementimage.cpp main.cpp
+HEADERS = afficheortho.h vegetation.h percepunit.h standardCamera.h cameraViewer.h viewer.h bati.h initgl.h traitementimage.h texture.h classification.h
+SOURCES = afficheortho.cpp vegetation.cpp percepunit.cpp standardCamera.cpp cameraViewer.cpp viewer.cpp bati.cpp initgl.cpp traitementimage.cpp main.cpp texture.cpp classification.cpp
 
 # Linux
 INCLUDEPATH *= /home/inf0phile/Téléchargements/libQGLViewer-2.3.17
